@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('a')-1, -1):
-    print('{:c}'.format(i) if i % 2 == 0 else chr(i-32), end='')
+for num in reversed(range(65, 91)):
+    print("{:c}".format(num if (num % 2 != 0) else (num + 32)), end="")
