@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Defines a Square."""
+"""
+Module 1-square
+Defines a Square
+"""
 
 
 class Square:
