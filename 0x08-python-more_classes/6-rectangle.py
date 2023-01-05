@@ -11,13 +11,16 @@ class Rectangle:
     Represents a Rectangle
     """
 
-    def __init__(self, width=0, height=0):
-        """new Rectangle.
+    number_of_instances = 0
 
-        Args:
-            width (int): width
-            height (int): height
+    def __init__(self, width=0, height=0):
         """
+        new Rectangle.
+        Args:
+            width (int): The width
+            height (int): The height
+        """
+        type(self).number_of_instances += 1
         self.width = width
         self.height = height
 
